@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piscinas da Serra - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="images/piscinas da serra.png" alt="Piscinas da Serra Logo" class="logo" width="50" height="50">
+        </div>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form>
+                <div class="input-group">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" placeholder="Senha">
+                    <span class="toggle-password" onclick="togglePassword()">👁️</span>
+                </div>
+                <div class="forgot-password">
+                    <a href="#" title="Clique Aqui">Novo Usuário?</p></a>
+                    <a href="#" class="forgot" title="Clique Aqui">Esqueceu a sua senha?</p></a>
+                </div><br>
+                <button type="submit" class="btn-login">Login</button>
+                <div class="social-login">
+                    <p>ou entre com</p><br>
+                    <div class="social-icons">
+                        <a href="#" id="facebook-login"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="Facebook" width="50" height="50"></a>
+                        <a href="#" id="google-login"><img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="Google" width="50" height="50"></a>
+                        <a href="#" id="apple-login"><img src="https://cdn-icons-png.flaticon.com/128/0/747.png" alt="Apple" width="50" height="50"></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
